@@ -6,9 +6,9 @@ on:
       - main
 
 permissions:
-  contents: write  # Grants write access to the repo
-  pages: write     # Allows updating GitHub Pages
-  id-token: write  # Required for secure deployments
+  contents: write  # Grants GitHub Actions write access to the repo
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          persist-credentials: false # Avoid using SSH keys
+          persist-credentials: false  # Prevents SSH key issues
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -35,8 +35,9 @@ jobs:
         env:
           GIT_USER: github-actions[bot]
           USE_SSH: false
-          GIT_URL: https://github.com/blacksky-algorithms/blacksky-algorithms.github.io.git
+          GIT_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/blacksky-algorithms/blacksky-algorithms.github.io.git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin $GIT_URL
           yarn deploy
