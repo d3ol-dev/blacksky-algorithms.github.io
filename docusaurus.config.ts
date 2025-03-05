@@ -13,7 +13,7 @@ const config: Config = {
   organizationName: 'blacksky-algorithms',
   projectName: 'blacksky-algorithms.github.io',
   trailingSlash: false,
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // Even if you don't use internationalization, you can use this field to set

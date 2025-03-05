@@ -1,43 +1,53 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
-
-permissions:
-  contents: write  # Grants GitHub Actions write access to the repo
-  pages: write
-  id-token: write
+    # Optional: Define triggers, paths, etc.
+    # See: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
-  deploy:
+  build:
+    name: Build Docusaurus
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          persist-credentials: false  # Prevents SSH key issues
+          fetch-depth: 0  # Ensures full history for proper deployments
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'yarn'
+          cache: yarn
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Build Docusaurus site
+      - name: Build website
         run: yarn build
 
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build  # Upload the generated static site for deployment
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write  # Allows deployment to GitHub Pages
+      id-token: write  # Verifies the deployment originates from an appropriate source
+
+    # Deploy to the GitHub Pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
-        env:
-          GIT_USER: github-actions[bot]
-          USE_SSH: false
-          GIT_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/blacksky-algorithms/blacksky-algorithms.github.io.git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin $GIT_URL
-          yarn deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
