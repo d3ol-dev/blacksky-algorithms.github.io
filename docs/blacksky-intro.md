@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
+slug: /
 ---
+
 
 # Introduction
 Blacksky is an organization that develops alternative implementations of [atproto](https://atproto.com/guides/overview) components. Our goal is to provide the Bluesky community with additional options and features through our custom implementations. This documentation is designed to help beginners understand what Blacksky offers and how to get started with our feeds.
