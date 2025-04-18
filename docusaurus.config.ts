@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Blacksky Documentation",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/clear-blacksky-favicon.ico",
   url: "https://docs.blackskyweb.xyz",
   baseUrl: "/",
   organizationName: "blacksky-algorithms",
@@ -59,12 +59,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/blacksky-webclip-256.png",
     navbar: {
-      title: "My Site",
+      title: "Blacksky Documentation",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "The Blacksky logo",
+        src: "img/blacksky-favicon.ico",
       },
       items: [
         {
@@ -73,7 +73,8 @@ const config: Config = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
+        { to: "/docs", label: "Docs", position: "left" },
         {
           href: "https://github.com/blacksky-algorithms/rsky",
           label: "GitHub",
@@ -88,8 +89,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Blacksky Introduction",
+              to: "/docs/blacksky-intro",
             },
           ],
         },
