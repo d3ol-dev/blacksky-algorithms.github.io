@@ -5,7 +5,7 @@ slug: /
 
 
 # Introduction
-Blacksky is an organization that develops alternative implementations of [atproto](https://atproto.com/guides/overview) components. Our goal is to provide the Bluesky community with additional options and features through our custom implementations. This documentation is designed to help beginners understand what Blacksky offers and how to get started with our feeds.
+Blacksky Algorithms builds open-source, community-driven infrastructure for decentralized social media. Our mission is to empower communities with tools for safety, governance, and control over their online spaces. This documentation is designed to help new users understand what Blacksky offers and how to get started with our feeds and moderation services.
 
 ## Frequently Asked Questions
 
@@ -43,4 +43,4 @@ Please note, we are only taking feedback for improvements and features to the fe
 The Authenticated Transfer Protocol (aka atproto) is the decentralized social networking protocol that powers
 
 ## Getting Involved with Blacksky
-Visit our 
+Visit our
