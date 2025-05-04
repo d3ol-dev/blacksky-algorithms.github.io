@@ -40,4 +40,34 @@ Yes! We're constantly innovating and evolving based on user feedback from our co
 > Please note, we are only taking feedback for improvements and features to the feed, moderation services, etc. Do not use this form to report malicious or harassment posts.
 
 ## Getting Involved with Blacksky
-Visit our
+First, we appreciate you showing interest in contributing to the rsky project!
+
+This project heavily involves the AT Protocol. There are resources attached to this section that you can use to gain a better understanding.
+
+* [ATProto for Distributed Systems Engineers](https://atproto.com/articles/atproto-for-distsys-engineers)
+* [AT Protocol Specifications](https://atproto.com/#resources)
+* [Official Bluesky PDS (In TypeScript)](https://github.com/bluesky-social/atproto/tree/main/packages/pds)
+* [Official Blacksky PDS (In Rust)](https://github.com/blacksky-algorithms/rsky/tree/main/rsky-pds)
+* [Bigsky, the official Bluesky Relay](https://github.com/bluesky-social/indigo/tree/main/cmd/bigsky)
+  * It can be accessed at https://relay1.us-east.bsky.network, but the popular option is to use https://bsky.network/.
+* [Jetstream, a bandwidth-friendly relay](https://github.com/bluesky-social/jetstream)
+* [Official Bluesky Appview](https://github.com/bluesky-social/atproto/tree/main/packages/bsky)
+* [Example AppView](https://github.com/bluesky-social/statusphere-example-app/tree/main)
+* [Constellation, a global backlink indexing tool](https://github.com/at-microcosm/links/tree/main/constellation)
+
+
+At a high level, the Authenticated Transfer Protocol (aka AT Protocol, ATProto, atproto) is a generic, federated protocol for building open social media appliactions. Personal Data Servers (or PDSs) store user data and handle identity. Relays aggregate and distribute data across the network. App Views aggregate data from the relays, for it to be used in feeds.
+
+We understand that not everyone is in a position to give technical contributions to the project. We want to outline some other ways you can contribute. Don't feel pressured if you aren't in a position to participate in upcoming suggestions. Simply giving us a "star", or sharing the word about the project is appreciated.
+
+Some other ways you can contribute to the project include:
+- [Financial Contributions](https://opencollective.com/blacksky)
+- Updating and/or Translating Documentation
+  - Writing Tutorials
+  - Adapting the Project for Specific Regions
+- Community Support
+- Design Elements
+  - User Experience
+  - User Interface
+
+If there are any other ways you would like to contribute to the project. Consider reaching out to [the team](mailto:rudy%40blacksky.app?subject=Other%20Ways%20to%20Contribute) to see if there is a fit!
