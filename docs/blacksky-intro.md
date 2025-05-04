@@ -32,7 +32,7 @@ To report a post:
 ### How do I know if I got banned?
 If this is the only post you're seeing in the Blacksky feed, then your access to the feed has been restricted due to suspicion that you are using the feed to target and harass marginalized users.
 
-[image of the banned post]
+![A screenshot showing what users banned from the Blacksky feed would see.](../static/img/exampleBskyPostThree.png)
 
 ### Can I submit feedback for Blacksky?
 Yes! We're constantly innovating and evolving based on user feedback from our community. To submit feedback about Blacksky, (there should be a form for users to submit feedback)
