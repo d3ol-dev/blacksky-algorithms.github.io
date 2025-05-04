@@ -6,7 +6,6 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Blacksky Documentation",
-  tagline: "Dinosaurs are cool",
   favicon: "img/clear-blacksky-favicon.ico",
   url: "https://docs.blackskyweb.xyz",
   baseUrl: "/",
@@ -67,7 +66,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Introduction",
         },
         { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
         { to: "/docs", label: "Docs", position: "left" },
@@ -125,7 +124,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BlackSky Algorithms, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BlackSky Algorithms, Inc`,
     },
     prism: {
       theme: prismThemes.github,
