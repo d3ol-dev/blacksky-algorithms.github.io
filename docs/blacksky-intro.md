@@ -35,9 +35,7 @@ If this is the only post you're seeing in the Blacksky feed, then your access to
 ![A screenshot showing what users banned from the Blacksky feed would see.](../static/img/exampleBskyPostThree.png)
 
 ### Can I submit feedback for Blacksky?
-Yes! We're constantly innovating and evolving based on user feedback from our community. To submit feedback about Blacksky, (there should be a form for users to submit feedback)
-
-Please note, we are only taking feedback for improvements and features to the feed, moderation services, etc. Do not use this form to report malicious or harassment posts.
+Yes! We're constantly innovating and evolving based on user feedback from our community. To submit feedback about Blacksky, simply write an email to [rudy@blacksky.app](mailto:rudy%40blacksky.app?subject=Feedback%20For%20Blacksky)
 
 
 ### What is the AT Protocol?
