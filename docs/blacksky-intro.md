@@ -14,17 +14,12 @@ The Authenticated Transfer Protocol (aka atproto) is the decentralized social ne
 Here's a [link to a Bluesky blog](https://bsky.social/about/blog/02-22-2024-open-social-web) post that explains what it is, and why it differs from other social apps you may be used to.
 
 ### How do I Add Myself to the Blacksky Feed?
-Create a post and include the #AddToBlacksky hashtag (This only needs to be done once). All posts after will be included in the Blacksky feed.
-
-![A screenshot of post on Bluesky including text that states "This is an example of a post", and "#AddToBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed.](../static/img/exampleBskyPost.png)
+See [Joining a Blacksky Feed](/docs/blacksky-info/how-to-add.md#Joining-a-Blacksky-Feed).
 
 ### How do I Remove Myself from the Blacksky Feed or Starter Pack?
-Create a post and include the #RemoveFromBlacksky hashtag. All posts after will NOT be included in any of the Blacksky feeds.
-
-![A screenshot of post on Bluesky including text that states "This is another example post", and "#RemoveFromBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed](../static/img/exampleBskyPostTwo.png)
+See [Leaving a Blacksky Feed](/docs/blacksky-info/how-to-add.md#Leaving-a-Blacksky-Feed).
 
 ### How do I Report a Post to the Blacksky Moderation Service?
-
 To report a post:
 1. Click the … icon on the bottom-right of the post.
 2. Select **Report Post**.
