@@ -8,6 +8,11 @@ Blacksky Algorithms builds open-source, community-driven infrastructure for dece
 
 ## Frequently Asked Questions
 
+### What is the AT Protocol?
+The Authenticated Transfer Protocol (aka atproto) is the decentralized social networking protocol that is used to build open social media applications, like Bluesky.
+
+Here's a [link to a Bluesky blog](https://bsky.social/about/blog/02-22-2024-open-social-web) post that explains what it is, and why it differs from other social apps you may be used to.
+
 ### How do I Add Myself to the Blacksky Feed?
 Create a post and include the #AddToBlacksky hashtag (This only needs to be done once). All posts after will be included in the Blacksky feed.
 
