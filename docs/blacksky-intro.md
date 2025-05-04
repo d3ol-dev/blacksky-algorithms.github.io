@@ -37,9 +37,7 @@ If this is the only post you're seeing in the Blacksky feed, then your access to
 ### Can I submit feedback for Blacksky?
 Yes! We're constantly innovating and evolving based on user feedback from our community. To submit feedback about Blacksky, simply write an email to [rudy@blacksky.app](mailto:rudy%40blacksky.app?subject=Feedback%20For%20Blacksky)
 
-
-### What is the AT Protocol?
-The Authenticated Transfer Protocol (aka atproto) is the decentralized social networking protocol that powers
+> Please note, we are only taking feedback for improvements and features to the feed, moderation services, etc. Do not use this form to report malicious or harassment posts.
 
 ## Getting Involved with Blacksky
 Visit our
