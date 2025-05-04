@@ -11,12 +11,12 @@ Blacksky Algorithms builds open-source, community-driven infrastructure for dece
 ### How do I Add Myself to the Blacksky Feed?
 Create a post and include the #AddToBlacksky hashtag (This only needs to be done once). All posts after will be included in the Blacksky feed.
 
-![A screenshot ](../static/img/exampleBskyPost.png)
+![A screenshot of post on Bluesky including text that states "This is an example of a post", and "#AddToBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed.](../static/img/exampleBskyPost.png)
 
 ### How do I Remove Myself from the Blacksky Feed or Starter Pack?
 Create a post and include the #RemoveFromBlacksky hashtag. All posts after will NOT be included in any of the Blacksky feeds.
 
-![inge](../static/img/exampleBskyPostTwo.png)
+![A screenshot of post on Bluesky including text that states "This is another example post", and "#RemoveFromBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed](../static/img/exampleBskyPostTwo.png)
 
 ### How do I Report a Post to the Blacksky Moderation Service?
 
