@@ -8,12 +8,12 @@ There are several feeds created by Blacksky Algorithms:
 
 > Note: You may see that the feeds are authored by "@rudyfraser.com". Those are the right feeds.
 
-### joining-a-blacksky-feed
+### Joining a Blacksky Feed
 Create a post and include the #AddToBlacksky hashtag (This only needs to be done once). All posts after will be included in the Blacksky feed.
 
 ![A screenshot of post on Bluesky including text that states "This is an example of a post", and "#AddToBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed.](../../static/img/exampleBskyPost.png)
 
-### leaving-a-blacksky-feed
+### Leaving a Blacksky Feed
 Create a post and include the #RemoveFromBlacksky hashtag. All posts after will NOT be included in any of the Blacksky feeds.
 
 ![A screenshot of post on Bluesky including text that states "This is another example post", and "#RemoveFromBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed](../../static/img/exampleBskyPostTwo.png)
