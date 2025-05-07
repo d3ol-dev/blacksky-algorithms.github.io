@@ -6,7 +6,7 @@ They are not. Custom feeds in Bluesky are aggregators of content, not forums. Yo
 
 So, clicking the #Blacksky hashtag is not the same as using the official Blacksky Feed. The feed is chronologically ordered and the content is curated through human moderation, automation, and some pre-filtering logic.
 
-The community also proactively reports content to our Blacksky Moderation Service [@blacksky.app](https://bsky.app/profile/blacksky.app). Also, see [How Do I Add Myself to the Blacksky Feed](docs/blacksky-info/how-to-add.md).
+The community also proactively reports content to our Blacksky Moderation Service [@blacksky.app](https://bsky.app/profile/blacksky.app). Also, see [How Do I Add Myself to the Blacksky Feed](/docs/blacksky-info/how-to-add).
 
 A starter pack is a list of users and feeds that help new users find community quicker. The Blacksky Starter Pack is a curated list of the 50 most popular and active accounts from the Blacksky feeds.
 

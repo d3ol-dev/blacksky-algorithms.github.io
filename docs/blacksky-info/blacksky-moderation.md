@@ -3,7 +3,7 @@
 Any content labeled by Bluesky's AI-based labeler is automatically filtered out of the feed as soon as it is labeled. This usually occurs at the time of posting, but can happen later.
 [Defined by Bluesky](https://bsky.social/about/blog/03-12-2024-stackable-moderation), labels are annotations on users and content. They can be used to hide, warn, and categorize [posts, and users on] the network
 
-The Blacksky Moderation Service, @blacksky.app, is where you can report posts for antiblackness and misogynoir. The service is also a labeler that you can subscribe to in order to be warned about harmful or insensitive content. Also see, [How Do I Subscribe to the Blacksky Moderation Service Labeler](/docs/blacksky-info/how-to-add.md#labeler)
+The Blacksky Moderation Service, @blacksky.app, is where you can report posts for antiblackness and misogynoir. The service is also a labeler that you can subscribe to in order to be warned about harmful or insensitive content. Also see, [How Do I Subscribe to the Blacksky Moderation Service Labeler](/docs/blacksky-info/how-to-add#labeler)
 
 Other content that doesn't belong in the feed can be reported to [@blacksky.app](https://bsky.app/profile/blacksky.app), where a team of moderators will review the content for removal from the feed.
 
@@ -27,7 +27,7 @@ Report that to @blacksky.app.\
 \
 See something that could otherwise harm Black folks (e.g. screenshots of racist posts on X)? Report to @blacksky.app
 
-Also, see [How to Do I Report a Post to the Blacksky Moderation Service](/docs/blacksky-intro.md#How-do-I-Report-a-Post-to-the-Blacksky-Moderation-Service?) (blacksky.app)? and XXX.
+Also, see [How to Do I Report a Post to the Blacksky Moderation Service](/docs#how-do-i-report-a-post-to-the-blacksky-moderation-service) (blacksky.app)?
 
 The moderation service gives you a discrete way to report harmful content but it also allows Blacksky to enable features that protect the community. For example, the Blacksky “Banned from TV” feature allows for certain accounts that are reported to be blocked from even seeing the feed.
 
