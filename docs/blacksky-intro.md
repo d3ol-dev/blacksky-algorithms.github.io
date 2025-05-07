@@ -14,10 +14,10 @@ The Authenticated Transfer Protocol (aka atproto) is the decentralized social ne
 Here's a [link to a Bluesky blog](https://bsky.social/about/blog/02-22-2024-open-social-web) post that explains what it is, and why it differs from other social apps you may be used to.
 
 ### How do I Add Myself to the Blacksky Feed?
-See [Joining a Blacksky Feed](/docs/blacksky-info/how-to-add.md#Joining-a-Blacksky-Feed).
+See [Joining a Blacksky Feed](/docs/blacksky-info/how-to-add#joining-a-blacksky-feed).
 
 ### How do I Remove Myself from the Blacksky Feed or Starter Pack?
-See [Leaving a Blacksky Feed](/docs/blacksky-info/how-to-add.md#Leaving-a-Blacksky-Feed).
+See [Leaving a Blacksky Feed](/docs/blacksky-info/how-to-add#leaving-a-blacksky-feed).
 
 ### How do I Report a Post to the Blacksky Moderation Service?
 To report a post:

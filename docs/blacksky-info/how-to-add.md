@@ -8,18 +8,18 @@ There are several feeds created by Blacksky Algorithms:
 
 > Note: You may see that the feeds are authored by "@rudyfraser.com". Those are the right feeds.
 
-### Joining a Blacksky Feed
+### joining-a-blacksky-feed
 Create a post and include the #AddToBlacksky hashtag (This only needs to be done once). All posts after will be included in the Blacksky feed.
 
 ![A screenshot of post on Bluesky including text that states "This is an example of a post", and "#AddToBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed.](../../static/img/exampleBskyPost.png)
 
-### Leaving a Blacksky Feed
+### leaving-a-blacksky-feed
 Create a post and include the #RemoveFromBlacksky hashtag. All posts after will NOT be included in any of the Blacksky feeds.
 
 ![A screenshot of post on Bluesky including text that states "This is another example post", and "#RemoveFromBlacksky". This is to showcase how a user can get their posts included in the Blacksky feed](../../static/img/exampleBskyPostTwo.png)
 
 ### Pinning a Feed
-1. Open the [Bluesky](www.bsky.app) app.
+1. Open the [Bluesky](https://bsky.app) app.
 2. Navigate to the search page.
 3. Type in the title of any of the feeds previously mentioned.
 4. Click on the "+" to join this feed.
