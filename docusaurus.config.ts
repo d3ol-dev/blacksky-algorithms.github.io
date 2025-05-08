@@ -62,14 +62,8 @@ const config: Config = {
         src: "img/blacksky-favicon.ico",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Introduction",
-        },
-        { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
         { to: "/docs", label: "Docs", position: "left" },
+        { to: "https://blog.rudyfraser.com/", label: "Blog", position: "left" },
         {
           href: "https://github.com/blacksky-algorithms/rsky",
           label: "GitHub",
