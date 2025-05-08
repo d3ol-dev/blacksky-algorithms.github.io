@@ -10,7 +10,7 @@ const config: Config = {
   url: "https://docs.blackskyweb.xyz",
   baseUrl: "/",
   organizationName: "blacksky-algorithms",
-  projectName: "General and Technical Documentation for Blacksky",
+  projectName: "blacksky-algorithms.github.io",
   trailingSlash: false,
   deploymentBranch: "gh-pages",
   onBrokenLinks: "log",
