@@ -79,7 +79,7 @@ const config: Config = {
           items: [
             {
               label: "Blacksky Introduction",
-              to: "/docs/blacksky-intro",
+              to: "/docs",
             },
           ],
         },
